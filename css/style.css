@@ -1,0 +1,58 @@
+header {
+    height: 500px;
+    border: 1px solid lightblue;
+    background-color: lightblue;
+}
+
+.centered {
+    max-width: 1000px;
+    margin: auto;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: lightgreen;
+}
+
+nav #nav-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+
+
+nav #logo {
+    width: 130px;
+    background-color: darkgreen;
+}
+
+#nav-inner #links {
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: row;
+}
+
+#links ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row nowrap;
+    padding-left: 0;
+    gap: 30px;
+}
+
+#links ul li {
+    width: 60px;
+    height: 30px;
+    background-color: lightyellow;
+    list-style-type: none;
+    border: 1px solid orange;
+}
+
+nav #access-form {
+    width: 90px;
+    background-color: darkgreen;
+} 
